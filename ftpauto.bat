@@ -19,7 +19,7 @@ rem Local folder where the remote file will be downloaded
 set local_dir=C:\Local-DIR
 
 rem local folder to save old versions of the file
-set local_dir_old=C:\Local-FTP\OLD\
+set local_dir_old=C:\Local-DIR\OLD\
 
 rem file to store ftp commands, log and errors
 set ftpauto_tmp=ftpauto.tmp
