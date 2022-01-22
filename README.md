@@ -33,7 +33,7 @@ rem ---------- Configuration End ----------
 
 ```
 
-Where we have this parameter to edit if necessary:
+Where we have this parameters to edit if necessary:
 
 <ul>
   <li>server: Remote FTP server name or IP</li>
