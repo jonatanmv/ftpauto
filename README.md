@@ -48,7 +48,7 @@ Where we have this parameters to edit if necessary:
 </ul>
 
 # Install
-Just download the *.bat file and edit the configuration section.
+Just download the *.bat file and edit the *configuration section*.
 
 # Just run it !
 Open a msdos terminal and type the script name to launch it. You can also double click on the *.bat script file.
