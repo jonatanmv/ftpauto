@@ -1,6 +1,6 @@
 # Introduction
 This scripts automates the connection and loging to a FTP server from a windows machine using MSDOS scripting language.
-It basically creates a temporal file with the necessary FTP commands and then uses that file as input to be run by the standard FTP client against a defined FTP server.
+It basically creates a temporal file with the necessary FTP commands and then uses that file as input to be run by the standard FTP client against a defined FTP server. FTP scripts allow you to put together a chain of commands in a file that you can call when needed.
 
 # Configuration
 The configuration is embedded in the script.
@@ -12,6 +12,7 @@ rem ---------- Configuration Start ----------
 
 rem FTP server parameters
 set server=your-server.com
+set username=anonymous
 set password=anonymous
 
 rem Remote folder and filename to download
