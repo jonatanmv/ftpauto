@@ -9,6 +9,7 @@ rem ---------- Configuration Start ----------
 
 rem FTP server parameters
 set server=your-server.com
+set username=anonymous
 set password=anonymous
 
 rem Remote folder and filename to download
@@ -42,6 +43,7 @@ for /f "tokens=1,2 delims=:, " %%A in ('time /t') do (
 set timestamp2=%y%-%m%-%d%
 set timestamp=%y%-%m%-%d%_%hh%%mm%
 
+echo %username%>> %ftpauto_tmp%
 echo %password%>> %ftpauto_tmp%
 echo >> %ftpauto_tmp%
 echo lcd %local_dir% >> %ftpauto_tmp%
